@@ -1,0 +1,22 @@
+{
+  "name": "problem-solving",
+  "version": "1.0.0",
+  "description": "Effective problem-solving analysis mindset for the agent: root cause via 5 Whys, fact-based analysis, divergent option generation, convergent decision (impact vs effort, risk), PDCA feedback loop.",
+  "author": {
+    "name": "pitta"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/inject-mindset.js\"",
+            "timeout": 5,
+            "statusMessage": "Loading problem-solving mindset..."
+          }
+        ]
+      }
+    ]
+  }
+}
