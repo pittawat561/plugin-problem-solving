@@ -12,11 +12,20 @@ Claude Code plugin that injects an effective problem-solving analysis mindset in
 
 The mindset: root cause via 5 Whys → fact-based analysis → diverge (2-3 options) → converge (impact vs effort + risk) → PDCA feedback loop.
 
-## Install (local marketplace)
+## Install
+
+From GitHub (any machine):
 
 ```
-claude plugin marketplace add C:\Users\pitta\.claude\my-plugins
-claude plugin install problem-solving@pitta-plugins
+claude plugin marketplace add pittawat561/plugin-problem-solving
+claude plugin install problem-solving@pittawat561-plugins
+```
+
+From a local clone (for development):
+
+```
+claude plugin marketplace add <path-to-clone>
+claude plugin install problem-solving@pittawat561-plugins
 ```
 
 ## Editing the behavior

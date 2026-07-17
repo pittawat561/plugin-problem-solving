@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "pittawat561-plugins",
+  "description": "Claude Code plugins by pittawat561.",
+  "owner": {
+    "name": "pittawat561",
+    "url": "https://github.com/pittawat561"
+  },
+  "plugins": [
+    {
+      "name": "problem-solving",
+      "description": "Injects an effective problem-solving analysis mindset (root cause via 5 Whys, fact-based analysis, divergent/convergent thinking, PDCA) into the agent.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
